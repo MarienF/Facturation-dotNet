@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v5.0": {
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/5.0.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AspNetCore.Components.WebAssembly.Server.targets": {}
+        }
+      },
+      "Facturation.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v5.0"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/5.0.0": {
+      "sha512": "+yCWlLS7ZyUAEgrPZ6O7ZT8uAjDKfYI7SSHF4KOS8BJvXoyxfsQn6V51vQZc6dsu5tCGRBcha9jCdlNrPxM8hQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.webassembly.server/5.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Microsoft.AspNetCore.Components.WebAssembly.Server.targets",
+        "lib/net5.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Components.WebAssembly.Server.xml",
+        "microsoft.aspnetcore.components.webassembly.server.5.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.server.nuspec",
+        "tools/BlazorDebugProxy/BrowserDebugHost.dll",
+        "tools/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json",
+        "tools/BlazorDebugProxy/BrowserDebugProxy.dll",
+        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/BlazorDebugProxy/Microsoft.CodeAnalysis.dll",
+        "tools/BlazorDebugProxy/Mono.Cecil.Pdb.dll",
+        "tools/BlazorDebugProxy/Mono.Cecil.Rocks.dll",
+        "tools/BlazorDebugProxy/Mono.Cecil.dll",
+        "tools/BlazorDebugProxy/Newtonsoft.Json.dll"
+      ]
+    },
+    "Facturation.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Facturation.Shared.csproj",
+      "msbuildProject": "../Shared/Facturation.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0": [
+      "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Client/Facturation.Client.csproj",
+      "Facturation.Shared >= 1.0.0",
+      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/marienfarge/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Server/Facturation.Server.csproj",
+      "projectName": "Facturation.Server",
+      "projectPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Server/Facturation.Server.csproj",
+      "packagesPath": "/Users/marienfarge/.nuget/packages/",
+      "outputPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Server/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/marienfarge/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net50": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Client/Facturation.Client.csproj": {
+              "projectPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Client/Facturation.Client.csproj"
+            },
+            "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Shared/Facturation.Shared.csproj": {
+              "projectPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Shared/Facturation.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net50": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.10.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Client/Facturation.Client.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Client/Facturation.Client.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    }
+  ]
+}

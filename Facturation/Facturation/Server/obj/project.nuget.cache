@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "D8hCQnEDsf+zNss7vqS034p2YBasZ60JmWM9r4J9Ry0cZmAn8/fQmsWsn0Dlch5HLLf9jSPa8txc7FxnABq1GQ==",
+  "success": false,
+  "projectFilePath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Server/Facturation.Server.csproj",
+  "expectedPackageFiles": [
+    "/Users/marienfarge/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/5.0.0/microsoft.aspnetcore.components.webassembly.server.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Client/Facturation.Client.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Client/Facturation.Client.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    }
+  ]
+}

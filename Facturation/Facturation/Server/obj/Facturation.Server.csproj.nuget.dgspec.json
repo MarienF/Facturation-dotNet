@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Server/Facturation.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Server/Facturation.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Server/Facturation.Server.csproj",
+        "projectName": "Facturation.Server",
+        "projectPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Server/Facturation.Server.csproj",
+        "packagesPath": "/Users/marienfarge/.nuget/packages/",
+        "outputPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marienfarge/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Client/Facturation.Client.csproj": {
+                "projectPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Client/Facturation.Client.csproj"
+              },
+              "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Shared/Facturation.Shared.csproj": {
+                "projectPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Shared/Facturation.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.10.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Shared/Facturation.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Shared/Facturation.Shared.csproj",
+        "projectName": "Facturation.Shared",
+        "projectPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Shared/Facturation.Shared.csproj",
+        "packagesPath": "/Users/marienfarge/.nuget/packages/",
+        "outputPath": "/Users/marienfarge/Documents/Cours/dotNet/Facturation-master/Facturation/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marienfarge/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "targetAlias": "net5.0",
+          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.10.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
